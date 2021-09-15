@@ -6,106 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haitham Amireh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="image-modified.png" alt="Image of my myanimelist">
-            </td>
-            <td>
-                <h1>Haitham Amireh</h1>
-                <p>
-                    <em>Software Developer</em>
-                </p>
-                <p>
-                    I am a python developer, I &#10084 Gaming, Anime and Manga.
-                </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                Python 
-            </td>
-            <td>
-                ⭐⭐⭐⭐
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Git
-            </td>
-            <td>
-                ⭐⭐⭐
-            </td>
-        </tr>
-        <tr>
-            <td>
-                HTML, CSS
-            </td>
-            <td>
-                ⭐⭐⭐⭐
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Projects</h3>
-    <ol>
-        <li>
-            <a href="https://github.com/HaithamAmireh/Sign_Language_Translator">
-                Sign Language Translator
-            </a>
-        </li>
-        <li>
-            Job Finder
-        </li>
-    </ol>
-    <hr>
-    <h3>Education</h3>
-    <p>Bachelor of Computer Information Systems</p>
-    <hr>
-    <h3>Experience</h3>
-    <p>2021 nothing</p>
-    <hr>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>
-                    Date
-                </th>
-                <th>
-                    Work
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2021
-                </td>
-                <td>
-                    Graduation
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    2020
-                </td>
-                <td>
-                    Nothing
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>
-        <a href="contacts.html">Contact</a>
-    </h3>
+    <div class="firstContainer">
+        <img class="topcloud" src="images/cloud.png" alt="cloudimage" />
+        <h1>I'm Haitham.</h1>
+        <h2>A Software Developer.</h2>
+        <img class="bottomcloud" src="images/cloud.png" alt="cloudimage" />
+        <img src="images/mountain.png" alt="mountain" style = "position:relative; top:5px;">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images/image-modified.png" alt="profile image">
+            <h2>Hello.</h2>
+            <p>I am a python developer. I enjoy learning new technologies. I ❤️ anime, manga, and videogames.</> </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="" src="https://media4.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif?cid=ecf05e476hnck4a5rdzu2fbjal5wppbt6pevk9uif17evc20&rid=giphy.gif&ct=g" alt="">
+            </div>
+            <div class="skill-row">
+                <img class="skill-images" src="https://cdn-icons-png.flaticon.com/512/888/888859.png" alt="">
+                <img class="skill-images" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
+                <img class="skill-images" src="https://cdn-icons-png.flaticon.com/512/2721/2721287.png" alt="">
+                <img class="skill-images" src="https://cdn-icons-png.flaticon.com/512/187/187699.png" alt="">
+                <img class="skill-images" src="https://cdn-icons-png.flaticon.com/512/52/52234.png" alt="">
+            </div>
+        <hr>
+        <div class="projects">
+            <h2>
+                Projects.
+            </h2>
+            <h3>
+                Sign language translator
+                <a id = "links"href="https://github.com/HaithamAmireh/Sign_Language_Translator">Source code</a>
+            </h3>
+            <p>
+                <img class = "project-images"src="images/High-fed.PNG" alt="">
+                <ul>
+                    <li>
+                        It's a deep learning program made to help the deaf/mute community, that will translate hand gestures used by them and translates them into text.
+                    </li>
+                    <li>
+                        The program also converts speech to text to keep the communication between said community and hearing able people going.
+                    </li>
+                    <li>
+                        Used:
+                        <ul>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                PyQt5
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                Tensorflow object detection API
+                            </li>
+                            <li>
+                                OpenCV
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <h3>
+                    Job finder application
+                </h3>
+
+            </p>
+        </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Think my skills are good for the position?</h3>
+            <p>Let's talk</p>
+            <a class="btn" href="mailto:haithamamireh@email.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/haitham-amireh-732b9a204/">LinkedIn</a>
+        <a class="footer-link" href="https://www.Github.com/haithamamireh">Github</a>
+        <p>© 2021 Haitham Amireh.</p>
+    </div>
+
+
+    </div>
 </body>
 
 </html>
